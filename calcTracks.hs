@@ -1,4 +1,4 @@
-import Album
+import Album2
 
 main = do 
   putStrLn (unwords $ minutesSeconds $ albumLength album)
