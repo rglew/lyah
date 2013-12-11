@@ -1,8 +1,7 @@
-import Data.List.Split
-
 module Album where
 
---album = ["00:25","14:23","11:12","01:22","04:21"]
+import Data.List.Split
+
 
 albumLength :: (Num b) => [String] ->  b 
 albumLength album = fromIntegral (sum $ conv2sec $ splitTracks album) 
